@@ -21,9 +21,11 @@ const GATEWAY_TIMEOUT_MS = 1800;
 const RPC_TIMEOUT_MS = 4000;
 
 const RPC_ENDPOINTS = [
+  'https://base-mainnet.g.alchemy.com/v2/alch_YniN5Ya3clbAodQ4ZTFkZ',
   'https://mainnet.base.org',
   'https://base.llamarpc.com',
 ];
+
 
 // F3: the custom error is declared so ethers can decode it by name.
 const CONTRACT_ABI = [
